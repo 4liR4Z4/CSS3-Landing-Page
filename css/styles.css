@@ -1,0 +1,274 @@
+/* HTML5 Element Tag */
+
+body {
+    background-color: #7F8487;
+    margin: 0;
+}
+
+/* Nav Section Tags */
+
+#nav {
+    position: relative;
+    padding: 85px 108px 0 108px;
+}
+
+.nav-head {
+    position: absolute;
+    font-size: 1.85rem;
+    margin: 18px 0 0 0;
+}
+
+.nav-head a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+.nav-head a:hover {
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: #F1EEE9;
+    float: right;
+    font-size: 1.25rem;
+    margin: 26px 0 0 62px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+/* Main Section Tags */
+
+#main {
+    text-align: center;
+    line-height: 1.2;
+    padding: 200px 180px 100px 180px;
+}
+
+.main-h1 {
+    color: #F1EEE9;
+    font-size: 2rem;
+}
+
+.main-email {
+    width: 200px;
+    height: 35px;
+}
+
+.main-btn {
+    background-color: #F1EEE9;
+    border-style: none;
+    color: darkorange;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    height: 39px;
+}
+
+.main-btn:hover {
+    background-color: darkorange;
+    border-style: none;
+    color: #F1EEE9;
+}
+
+/* Feature Section Tags */
+
+#features {
+    position: relative;
+    padding: 0 0 0 108px;
+}
+
+.img-1 {
+    display: inline;
+}
+
+.f1-head {
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.65rem;
+    top: 2px;
+}
+
+.f1-text {
+    color: #F1EEE9;
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.2rem;
+    width: 72%;
+    top: 50px;
+}
+
+.img-2 {
+    display: inline;
+    margin-top: 100px;
+}
+
+.f2-head {
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.65rem;
+    top: 165px;
+}
+
+.f2-text {
+    color: #F1EEE9;
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.2rem;
+    width: 72%;
+    top: 210px;
+}
+
+.img-3 {
+    display: inline;
+    margin-top: 100px;
+}
+
+.f3-head {
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.65rem;
+    top: 330px;
+}
+
+.f3-text {
+    color: #F1EEE9;
+    position: absolute;
+    margin: 0 0 0 180px;
+    font-size: 1.2rem;
+    width: 72%;
+    top: 375px;
+}
+
+/* Working Section Tags */
+
+#working {
+    text-align: center;
+    padding: 100px 180px 100px 180px;
+}
+
+.working-head {
+    color: #F1EEE9;
+    font-size: 1.85rem;
+}
+
+.working-vid {
+    margin-top: 50px;
+}
+
+/* Pricing Section Tags */
+
+#pricing {
+    position: relative;
+}
+
+#price-1 {
+    border: 1px solid darkorange;
+    background-color: #F1EEE9;
+    padding: 25px 40px 65px;
+    position: absolute;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 108px 0 108px;
+    width: 180px;
+    height: 236px;
+}
+
+.price-h1 {
+    color: darkorange;
+    margin: 0;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.price-p1 {
+    text-align: justify;
+}
+
+.price-btn {
+    background-color: darkorange;
+    border-style: none;
+    color: #F1EEE9;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6px;
+    width: 100px;
+    height: 39px;
+}
+
+#price-2 {
+    border: 1px solid darkorange;
+    background-color: #F1EEE9;
+    padding: 25px 40px 65px;
+    position: absolute;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 108px 0 540px;
+    width: 180px;
+    height: 236px;
+}
+
+.price-h2 {
+    color: darkorange;
+    margin: 0;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.price-p2 {
+    text-align: justify;
+}
+
+#price-3 {
+    border: 1px solid darkorange;
+    background-color: #F1EEE9;
+    padding: 25px 40px 65px;
+    position: absolute;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: 968px;
+    width: 180px;
+    height: 236px;
+}
+
+.price-h3 {
+    color: darkorange;
+    margin: 0;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.price-p3 {
+    text-align: justify;
+}
+
+/* Footer Section Tags */
+
+#footer {
+    background-color: #F1EEE9;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    position: relative;
+    line-height: 1.5;
+    width: 250px;
+    height: 60px;
+    margin: auto;
+    top: 400px;
+}
+
+.footer-link {
+    color: #7F8487;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0 15px;
+    font-size: 15px;
+}
+
+.footer-link:hover {
+    color: darkorange;
+}
